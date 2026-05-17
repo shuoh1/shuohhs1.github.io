@@ -1,22 +1,19 @@
-# Shuo Huang Academic Homepage
+# Shuo Huang academic homepage
 
-This is a simple static GitHub Pages website. It does not require Jekyll or any build system.
+This is a simple static academic homepage inspired by the luost26 academic-homepage layout.
+It avoids Jekyll build dependencies and can be deployed directly with GitHub Pages.
 
-## How to use
+## How to deploy
 
-1. Create a GitHub repository named `shuohhs1.github.io`.
-2. Upload all files in this folder to the root of the repository.
-3. Go to Settings > Pages.
-4. Set Source to `Deploy from a branch`, Branch to `main`, Folder to `/root`.
-5. Visit `https://shuohhs1.github.io` after deployment finishes.
+1. Create or open `shuohhs1.github.io` on GitHub.
+2. Delete old files from previous attempts if needed.
+3. Upload all files and folders in this package, including `.nojekyll`.
+4. Go to Settings -> Pages.
+5. Select Deploy from a branch -> main -> /root.
+6. Visit `https://shuohhs1.github.io` after GitHub finishes deployment.
 
-## Edit
+## Personalization
 
-- Edit `index.html` for content.
-- Edit `style.css` for colors, layout, and fonts.
-- Replace `assets/files/Shuo_Huang_CV.pdf` with an updated CV when needed.
-- To add a real profile photo, put it in `assets/img/profile.jpg` and replace the `avatar` block in `index.html` with:
-
-```html
-<img class="photo" src="assets/img/profile.jpg" alt="Shuo Huang">
-```
+- Replace `assets/img/profile.svg` with your own photo, for example `profile.jpg`.
+- Update the Google Scholar link in `index.html`.
+- Replace `assets/files/Shuo_Huang_CV.pdf` when your CV is updated.
